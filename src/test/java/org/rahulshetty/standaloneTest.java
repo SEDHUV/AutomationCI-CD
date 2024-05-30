@@ -32,6 +32,7 @@ public class standaloneTest {
        // login.username.sendKeys("sedhuhaema@gmail.com");
         driver.findElement(By.id("userPassword")).sendKeys("Sedhu@14");
         driver.findElement(By.id("login")).click();
+        //newly added code
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".mb-3")));
       WebElement image =  driver.findElement(By.cssSelector("[src='https://rahulshettyacademy.com/api/ecom/uploads/productImage_1650649434146.jpeg']"));
